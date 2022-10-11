@@ -80,6 +80,9 @@ h2{
   float:left;
 
 }
+.util_right{width:356.516px;}
+.util_right>li:nth-child(5){width:50.53px;}
+.util_right>li:nth-child(7){width:83px;}
 .util_right>li:nth-child(2),
 .util_right>li:nth-child(4),
 .util_right>li:nth-child(6),
@@ -116,6 +119,7 @@ visibility:hidden;
   display:block;
   font-size:1.7rem;
   font-weight:bold;
+  height:22.8px;
   transition: all .4s;
   width:240px;
   position:relative;
@@ -126,9 +130,10 @@ visibility:hidden;
   color:#156037;
   transition: all .4s;
 }
-.gnb>li:nth-child(3)>a{font-size:1.9rem;
+/*
+.gnb>li:nth-child(1)>a{font-size:1.9rem;
   color:#156037;}
-
+*/
 .gnb>li>a::after {
   content: "";
   width: 0;
@@ -147,16 +152,7 @@ visibility:hidden;
   transform: translateX(-50%);
   transition: all 0.3s;
 }
-.gnb>li:nth-child(3)>a::after{ content: "";
-  width: 60%;
-  height: 4px;
-  position: absolute;
-  background: #156037;
-  left: 50%;
-  bottom: -15px;
-  transform: translateX(-50%);
-  transition: all 0.3s;}
-  
+
 
 
 #menu{
@@ -176,7 +172,6 @@ color:#5d5d5d; z-index:99999;}
     transition: all .4s;
     z-index:99999;
 }
-
     
 /*마이페이지 영역*/
 section.clear{height:2200px;}
