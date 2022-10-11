@@ -81,14 +81,12 @@ h2{
 
 }
 
-.util_right>li:nth-child(5){width:50.53px;}
-.util_right>li:nth-child(7){width:83px;}
-.util_right>li:nth-child(2),
-.util_right>li:nth-child(4),
-.util_right>li:nth-child(6),
-.util_right>li:nth-child(8),
-.util_right>li:nth-child(10){
-  margin:0 20px 0 20px;
+.util_right > li:nth-child(2),
+.util_right > li:nth-child(4),
+.util_right > li:nth-child(6),
+.util_right > li:nth-child(8),
+.util_right > li:nth-child(10) {
+  margin: 0 20px 0 20px;
 }
 .util_right::after{
 content:'';
