@@ -290,7 +290,7 @@ color:#5d5d5d; z-index:99999;}
 
 .page>div:last-child{
     height:150px; 
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     border-top: 2px solid #333;
     border-bottom: 1px solid #999;
 }
@@ -683,10 +683,7 @@ input[id="s_btn"]:checked ~ #search_popup {
     padding: 150px 0 50px 0;
     box-sizing: border-box;
   }
-  .complete_bg > ul > li,
-  .sec02 > ul > li {
-    float: unset;
-  }
+
 
   /*섹션01*/
   .sec01 {

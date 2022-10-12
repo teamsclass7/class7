@@ -203,13 +203,13 @@ color:#5d5d5d; z-index:99999;}
 
 /*섹션01*/
 .complete_bg {
-  width: 1903px;
+  width: 1903px; height: 769px;
   padding: 100px 200px 50px 150px;
   box-sizing: border-box;
-  margin: 0 auto;
   display: flex;
   justify-content: left;
 }
+
 
 .sec01{
   width: 290px;
@@ -259,55 +259,49 @@ color:#5d5d5d; z-index:99999;}
 
 
 /*sec02 */
+.sec02{
+  height:587px;
+}
 .complete_bg>div{
     width: 1213px;
 }
-.page>div{
-    display: flex;
-    justify-content: space-between;
-}
-.page>div:last-child{display: flex; justify-content: center;}
+
 .page>div>p{
     font-size: 24px;
     padding-bottom: 15px;
 }
-.page>div>p>span{margin-left: 20px;}
-.page>div>a{display: block; padding-top: 15px;}
 
-.page>div span{
-    font-size: 14px;
-    color: #666;
 
-    margin: 0 10px;
-}
-.page>div>span:last-child{padding-bottom: 0;}
-.page>div:last-child>span{
-    font-size: 16px; 
-    padding-top: 70px;
-}
 
 .page>div:last-child{
-    height: 160px; 
+    height:150px; 
     margin-bottom: 50px;
-    border-top: 3px solid #333;
+    border-top: 2px solid #333;
     border-bottom: 1px solid #999;
 }
 
-.sec02>div:nth-child(2)>div:last-child{height: 200px;}
+/*sec03*/
+h3{
+  font-size:24px;
+  padding-bottom:15px;
+}
+#s_box{  border-top: 1px solid #333; box-sizing: border-box;}
+#s_box tr{
+    border-bottom: 1px solid #333; 
+}
+#s_box th{
+    width:120px;
+    height: 65px;
+    line-height: 35px;
+    vertical-align:middle;
+    font-size: 15px;
+}
 
-.page1, .page3, .page4{
-    width: 20%; 
-    text-align: center;
-}
-.page2{
-    width: 40%; 
-    text-align: center;
-}
-.page>div:last-child>ul>li{font-size: 18px; padding-top: 35px;}
-.page>div:last-child>ul>li:last-child{
-    font-size: 24px;
-    font-weight: bold;
-}
+#s_box td{width:1370px; height:35px; padding-left: 5px;
+  vertical-align:middle;}
+#s_box input{height: 30px; font-size: 15px; margin: 0 2px;}
+#s_box input:first-child{height: 30px; font-size: 13px;}
+
 
 /*푸터영역*/
 footer {
@@ -652,14 +646,10 @@ input[id="s_btn"]:checked ~ #search_popup {
   /* 메인영역*/
   .complete_bg {
     width: 740px;
-    height: 100%;
+    height: 859px;
     margin: 0 auto;
-    padding: 100px 0 50px 0;
+    padding: 150px 0 50px 0;
     box-sizing: border-box;
-  }
-  .complete_bg > ul > li,
-  .sec02 > ul > li {
-    float: unset;
   }
 
   /*섹션01*/
