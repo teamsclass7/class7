@@ -801,7 +801,7 @@ footer>div>.ft_01>li>a{
   }
  /*모바일 푸터*/
 
-
+footer{width: 100%;}
 footer div.wrap {
   width:740px; 
   height:100px;
