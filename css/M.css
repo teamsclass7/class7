@@ -203,7 +203,7 @@ color:#5d5d5d; z-index:99999;}
 
 /*섹션01*/
 .complete_bg {
-  width: 1903px;
+  width: 1903px; height: 769px;
   padding: 100px 200px 50px 150px;
   box-sizing: border-box;
   display: flex;
