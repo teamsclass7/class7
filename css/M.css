@@ -678,9 +678,9 @@ input[id="s_btn"]:checked ~ #search_popup {
   /* 메인영역*/
   .complete_bg {
     width: 740px;
-    height: 100%;
+    height: 859px;
     margin: 0 auto;
-    padding: 100px 0 50px 0;
+    padding: 150px 0 50px 0;
     box-sizing: border-box;
   }
   .complete_bg > ul > li,
