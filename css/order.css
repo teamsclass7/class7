@@ -801,13 +801,13 @@ footer>div>.ft_01>li>a{
   }
  /*모바일 푸터*/
 
-footer{width: 100%;}
-footer div.wrap {
-  width:740px; 
-  height:100px;
+ footer{
+  width:1024px; height:100px; margin:0 auto;
+}
+footer div.wrap {width:740px; height:100px;
   position:relative;
   padding:0;
-  margin: 0 auto;
+
 }
 
 footer>div>.logo{
@@ -848,7 +848,6 @@ footer>div>.ft_01>li:nth-child(2){
 footer>div>.ft_01>li>a{
   font-size:1.4rem;
 }
-
 
 
 
