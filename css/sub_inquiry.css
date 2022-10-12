@@ -412,6 +412,7 @@ footer>div>.ft_01>li>a{
       }
       .wrap {
         width: 740px; padding-bottom: 50px;
+        margin: 0 auto;
       }
       /*모바일 헤더영역 */
       #header {
