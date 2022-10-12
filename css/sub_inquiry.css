@@ -180,30 +180,36 @@ h2{
 #banner{
     background:#f1f1f1;
     width:100%; height:230px;
-    position: relative;
+    
 }
-.bnr{width: 100%;}
+.bnr{
+  height: 230px;
+  position: relative;
+  padding: 0;
+}
 
 .bnr>h3{
-   position: absolute;
-    font-size:2.5rem;
-    font-weight: 600;
-    color:#156037;
-    top: 25%; left: 47%;
+  position: absolute;
+  font-size:2.5rem;
+  font-weight: 600;
+  color:#156037;
+  top: 25%; right: 50%;
+  transform: translateX(50%);
 }
 .bnr>h4{
   position: absolute;
-     font-size:1.7rem;
-    font-weight: 700;
-    color:#333;
-    top: 55%; left: 43%;
+  font-size:1.7rem;
+  font-weight: 700;
+  color:#333;
+  top: 55%; right: 50%;
+  transform: translateX(50%);
 }
 .bnr>a{
   display: block;
   width: 230px; 
   height: 230px;
   position: absolute;
-  left: 22%;
+  left: 10%;
 }
 .bnr>a>img{
    width: 100%; height: 100%;
@@ -566,9 +572,19 @@ footer>div>.ft_01>li>a{
       width: 100%;
       padding-top: 100px;
     }
-    .bnr>h3{left: 63%; top: 53%;}
-    .bnr>h4{left: 55%; top: 70%;}
-    .bnr>a{left: 15%;}
+    .bnr{
+      padding: 0;
+      position: relative;
+    }
+    .bnr>h3{
+      position: absolute;
+      right: 205px; top: 70px;
+    }
+    .bnr>h4{
+      position: absolute;
+      right: 200px; top: 140px;
+    }
+
 
 
     /*icon*/
