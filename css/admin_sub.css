@@ -38,6 +38,7 @@ a:active{color:#333;}
 
 #lnb>figure{margin-top: 50px; position: absolute; bottom:-270px; right:10px;}
 #lnb>figure img{width:40px;}
+#lnb>figure figcaption{font-size: 16px;}
  
 
 
